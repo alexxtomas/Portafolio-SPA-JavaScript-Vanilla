@@ -31,7 +31,7 @@ export const listeners = () => {
     const email = $('#email_id')
     const message = $('#message')
 
-    $('form').addEventListener('submit',  function(event) {
+    $('form')?.addEventListener('submit',  function(event) {
     event.preventDefault();
 
     btn.value = 'Sending...'

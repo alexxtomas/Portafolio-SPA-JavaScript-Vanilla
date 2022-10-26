@@ -7,7 +7,7 @@ export const template = () => `
                 <p>Junior Full Stack Developer </p>
             </div>
             <div>
-                <img src="../../public/images/good-personal-photo.jpg" alt="Personal Photo">
+                <img src="https://res.cloudinary.com/dv3z6ozcj/image/upload/v1666808844/good-personal-photo_ipmddi.jpg" alt="Personal Photo">
             </div>
         </div>
         <div class="about-me">
