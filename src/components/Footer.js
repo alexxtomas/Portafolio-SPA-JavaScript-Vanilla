@@ -6,5 +6,6 @@ const template = () => `
 `   
 
 export const listeners = () => {
-    $('#footer').innerHTML += template()
+    $('#footer').innerHTML = template()
+    $('#footer').style.display = ''
 }
